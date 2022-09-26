@@ -1,6 +1,6 @@
 {
   "name": "@regions-of-indonesia/solid-query",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Regions of Indonesia Solid Query",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
