@@ -1199,10 +1199,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@regions-of-indonesia/client@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@regions-of-indonesia/client/-/client-1.4.0.tgz#22a9d93a9b7fe8979ce3c5e5eaebd008bc9297c2"
-  integrity sha512-MQsO5H8KzmJSe0b8jbUGWzVqgRLj9dJiLBT2b/zRoop6UzU7C0QNN5vtMk0KZhQId0w+enz3VeWSKRogk72KDA==
+"@regions-of-indonesia/client@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@regions-of-indonesia/client/-/client-2.0.0.tgz#03dedf43e5d2e3a0b52c8891c2593653c5a66b0e"
+  integrity sha512-Cn4bjqS0qz3xAt+epku9d/ETmAdi7dSqDz2+4XKU+GvpA2fCCQSUIj/Uthy6mi46QEL6diu1OTKI8d12nhJoqw==
 
 "@rollup/plugin-alias@^3.1.1":
   version "3.1.9"
@@ -2110,6 +2110,11 @@ cssstyle@^2.3.0:
   integrity sha512-AZL67abkUzIuvcHqk7c09cezpGNcxUxU4Ioi/05xHk4DQeTkWmGYftIE6ctU6AEt+Gn4n1lDStOtj7FKycP71A==
   dependencies:
     cssom "~0.3.6"
+
+csstype@^3.1.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.1.tgz#841b532c45c758ee546a11d5bd7b7b473c8c30b9"
+  integrity sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==
 
 data-uri-to-buffer@3:
   version "3.0.1"
@@ -5113,6 +5118,13 @@ socks@^2.3.3:
   dependencies:
     ip "^2.0.0"
     smart-buffer "^4.2.0"
+
+solid-js@^1.5.6:
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-1.5.6.tgz#607e451e7d04301df8424b4d92197d3e3fcad30c"
+  integrity sha512-EA7hjMIEdDUuV6Fk3WUQ2fPx7sRnhjl+3M59zj6Sh+c7c3JF3N1cSViBvX8MYJG9vEBEqKQBZUfKHPe/9JgKvQ==
+  dependencies:
+    csstype "^3.1.0"
 
 source-map-js@^1.0.2:
   version "1.0.2"

@@ -20,7 +20,7 @@
     "test:dev": "vitest --ui",
     "test:prod": "vitest run",
     "test": "yarn run test:prod",
-    "build": "rimraf dist && microbundle src/index.ts --format esm,cjs --sourcemap false --external @tanstack/solid-query",
+    "build": "rimraf dist && microbundle src/index.ts --format esm,cjs --sourcemap false --external solid-js,@tanstack/solid-query,@regions-of-indonesia/client",
     "release": "release-it"
   },
   "repository": "https://github.com/regions-of-indonesia/solid-query.git",
@@ -28,8 +28,9 @@
   "license": "GPL-3.0",
   "private": false,
   "dependencies": {
-    "@regions-of-indonesia/client": "^1.4.0",
-    "@tanstack/solid-query": "^4.6.0"
+    "@regions-of-indonesia/client": "^2.0.0",
+    "@tanstack/solid-query": "^4.6.0",
+    "solid-js": "^1.5.6"
   },
   "devDependencies": {
     "@vitest/ui": "^0.23.2",

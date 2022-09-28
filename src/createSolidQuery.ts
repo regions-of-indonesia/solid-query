@@ -62,44 +62,44 @@ function createSolidQuery(client: RegionsOfIndonesiaClient = new RegionsOfIndone
   };
 
   return {
-    useProvinces() {
+    createProvinces() {
       return createQuery(key.provinces, fetcher.provinces);
     },
-    useProvince(code: string) {
+    createProvince(code: string) {
       return createQuery(createCallbackIfNotEmptyStringOrNull(code, key.province), fetcher.province);
     },
-    useDistricts(provinceCode: string) {
+    createDistricts(provinceCode: string) {
       return createQuery(createCallbackIfNotEmptyStringOrNull(provinceCode, key.districts), fetcher.districts);
     },
-    useDistrict(code: string) {
+    createDistrict(code: string) {
       return createQuery(createCallbackIfNotEmptyStringOrNull(code, key.district), fetcher.district);
     },
-    useSubdistricts(districtCode: string) {
+    createSubdistricts(districtCode: string) {
       return createQuery(createCallbackIfNotEmptyStringOrNull(districtCode, key.subdistricts), fetcher.subdistricts);
     },
-    useSubdistrict(code: string) {
+    createSubdistrict(code: string) {
       return createQuery(createCallbackIfNotEmptyStringOrNull(code, key.subdistrict), fetcher.subdistrict);
     },
-    useVillages(subdistrictCode: string) {
+    createVillages(subdistrictCode: string) {
       return createQuery(createCallbackIfNotEmptyStringOrNull(subdistrictCode, key.villages), fetcher.villages);
     },
-    useVillage(code: string) {
+    createVillage(code: string) {
       return createQuery(createCallbackIfNotEmptyStringOrNull(code, key.village), fetcher.village);
     },
 
-    useSearch(text: string) {
+    createSearch(text: string) {
       return createQuery(createCallbackIfNotEmptyStringOrNull(text, key.search), fetcher.search);
     },
-    useSearchProvinces(text: string) {
+    createSearchProvinces(text: string) {
       return createQuery(createCallbackIfNotEmptyStringOrNull(text, key.searchProvinces), fetcher.searchProvinces);
     },
-    useSearchDistricts(text: string) {
+    createSearchDistricts(text: string) {
       return createQuery(createCallbackIfNotEmptyStringOrNull(text, key.searchDistricts), fetcher.searchDistricts);
     },
-    useSearchSubdistricts(text: string) {
+    createSearchSubdistricts(text: string) {
       return createQuery(createCallbackIfNotEmptyStringOrNull(text, key.searchSubdistricts), fetcher.searchSubdistricts);
     },
-    useSearchVillages(text: string) {
+    createSearchVillages(text: string) {
       return createQuery(createCallbackIfNotEmptyStringOrNull(text, key.searchVillages), fetcher.searchVillages);
     },
   };
