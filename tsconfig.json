@@ -9,6 +9,8 @@
     "allowSyntheticDefaultImports": true,
     "removeComments": true,
     "jsx": "preserve",
-    "jsxImportSource": "solid-js"
+    "jsxImportSource": "solid-js",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true
   }
 }
