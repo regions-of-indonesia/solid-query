@@ -24,8 +24,8 @@
   "license": "GPL-3.0",
   "private": false,
   "dependencies": {
-    "@regions-of-indonesia/client": "^2.1.0",
-    "@tanstack/solid-query": "^4.6.0",
+    "@regions-of-indonesia/client": "^2.2.0",
+    "@tanstack/solid-query": "^4.18.0",
     "solid-js": "^1.5.6"
   },
   "devDependencies": {
