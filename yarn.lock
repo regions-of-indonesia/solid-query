@@ -1524,10 +1524,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@regions-of-indonesia/client@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@regions-of-indonesia/client/-/client-3.0.0.tgz#052111d98fd6cc036fb90bd5448798c346318210"
-  integrity sha512-TXhqLDiOmnOKJeBLdi6th3db/WwOdwV6a2NBFAppA+GmqC2Mgp5h+0kW0Km4VcIibuulw6W9VOd7RHGFCmYsWw==
+"@regions-of-indonesia/client@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@regions-of-indonesia/client/-/client-4.0.0.tgz#bb0d332c47045cd70d3a0c7330517ac91892b59b"
+  integrity sha512-msMXj2ep2mZ5T5YfHohQLa1nWJUHUGNh3krbi5rURYxmYgqQZLslRnasmHS8Pb0MI+Vcvd/6Bxasm9L0ZkFzVQ==
 
 "@rollup/plugin-alias@^3.1.1":
   version "3.1.9"
@@ -1622,17 +1622,17 @@
   dependencies:
     defer-to-connect "^2.0.1"
 
-"@tanstack/query-core@5.0.0-alpha.7":
-  version "5.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.0.0-alpha.7.tgz#cb3db915b62a61ad803076a140a31e7946dcc791"
-  integrity sha512-f71aMnoHPDg2EvOIOcTovJ/dvgt/5h9YiPrQ2pvLNDK43XzgTvxyNdukSKB5x4Hrsuf8p9tkYdrncGrbrQhRwQ==
+"@tanstack/query-core@5.0.0-alpha.12":
+  version "5.0.0-alpha.12"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.0.0-alpha.12.tgz#be9596f234e831c627c9d17f2eda2ab213550d99"
+  integrity sha512-kd53UD6pasczOQ0Y+59Ku0Ep3W+7qjjhxnn2PGIEqioqa4g27Vnt77yTb8SwrXQR92ugazGpjOsGylDtwh31QA==
 
-"@tanstack/solid-query@^5.0.0-alpha.7":
-  version "5.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/@tanstack/solid-query/-/solid-query-5.0.0-alpha.7.tgz#43dbbfc4d6853b3ac1af0ff91d07932e9786abc5"
-  integrity sha512-/FEqUMPWJiComssy0iFsgqZu0KpmagA5XfoLo3XC7WUm/aCb2p3aqaNBeGcnGJAQcRXqWwC/WzQwYGVmvKXEmg==
+"@tanstack/solid-query@^5.0.0-alpha.16":
+  version "5.0.0-alpha.16"
+  resolved "https://registry.yarnpkg.com/@tanstack/solid-query/-/solid-query-5.0.0-alpha.16.tgz#958bfb6db6e343f315d3c4f2f14ce9008b1ba79b"
+  integrity sha512-s7dYtB4tYkBuQjOYBcq9It9WOm11Bgrc9gFOGOfpxFWSZwyaccRBHZEqt8eyLGuZCFtFeN7i32PEGIe5hCmZnw==
   dependencies:
-    "@tanstack/query-core" "5.0.0-alpha.7"
+    "@tanstack/query-core" "5.0.0-alpha.12"
 
 "@testing-library/dom@^9.0.1":
   version "9.0.1"
@@ -1983,10 +1983,10 @@ babel-plugin-dynamic-import-node@^2.3.3:
   dependencies:
     object.assign "^4.1.0"
 
-babel-plugin-jsx-dom-expressions@^0.35.19:
-  version "0.35.19"
-  resolved "https://registry.yarnpkg.com/babel-plugin-jsx-dom-expressions/-/babel-plugin-jsx-dom-expressions-0.35.19.tgz#9c2db7bbf173afab70acfa74335a328186e246ea"
-  integrity sha512-Y1Qg6Yt5XaRfGewxmF0ac6bnqo2xdsIdPd1J6/El4E+7m5Ej76jcHYeHWJsoPbVmbZXc5TGenwZMP9ueHjja/g==
+babel-plugin-jsx-dom-expressions@^0.36.9:
+  version "0.36.9"
+  resolved "https://registry.yarnpkg.com/babel-plugin-jsx-dom-expressions/-/babel-plugin-jsx-dom-expressions-0.36.9.tgz#cb7dd2526a9caf69468b7ebbcd7bd970214a6e8b"
+  integrity sha512-4ACO10PoUvqRcBEErbhVGv5vAHXgkz7epvULHfqJXw5TPtDYwjhmhGxGNGSK6220ec/b85ElLrGHlqQiJxI0WQ==
   dependencies:
     "@babel/helper-module-imports" "7.18.6"
     "@babel/plugin-syntax-jsx" "^7.18.6"
@@ -2039,12 +2039,12 @@ babel-plugin-transform-replace-expressions@^0.2.0:
   dependencies:
     "@babel/parser" "^7.3.3"
 
-babel-preset-solid@^1.6.3:
-  version "1.6.13"
-  resolved "https://registry.yarnpkg.com/babel-preset-solid/-/babel-preset-solid-1.6.13.tgz#d38a0daad3c09ba59d08aac10b3c45e877a5451c"
-  integrity sha512-W78rLK4xv48k2Jb/VFynu42oCQufcDYFz6gmhMYslKy/PJCfNxdp85QCg1wTcrmCoPQK2TcHMVcL8nVvvTBHxQ==
+babel-preset-solid@^1.7.2:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/babel-preset-solid/-/babel-preset-solid-1.7.3.tgz#de0b9c90111ece7037be9fb275bf9ba88eee66c8"
+  integrity sha512-HOdyrij99zo+CBrmtDxSexBAl54vCBCfBoyueLBvcfVniaEXNd4ftKqSN6XQcLvFfCY28UFO+DHaigXzWKOfzg==
   dependencies:
-    babel-plugin-jsx-dom-expressions "^0.35.19"
+    babel-plugin-jsx-dom-expressions "^0.36.9"
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -5697,6 +5697,11 @@ serialize-javascript@^4.0.0:
   dependencies:
     randombytes "^2.1.0"
 
+seroval@^0.5.0:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/seroval/-/seroval-0.5.1.tgz#e6d17365cdaaae7e50815c7e0bcd7102facdadf3"
+  integrity sha512-ZfhQVB59hmIauJG5Ydynupy8KHyr5imGNtdDhbZG68Ufh1Ynkv9KOYOAABf71oVbQxJ8VkWnMHAjEHE7fWkH5g==
+
 setprototypeof@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.2.0.tgz#66c9a24a73f9fc28cbe66b09fed3d33dcaf1b424"
@@ -5791,12 +5796,13 @@ socks@^2.3.3:
     ip "^2.0.0"
     smart-buffer "^4.2.0"
 
-solid-js@^1.6.15:
-  version "1.6.15"
-  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-1.6.15.tgz#01420bdfe19855551baf0a5eab06ea394d9a6b0b"
-  integrity sha512-xEuMUIdDf4YRFT4i3XEJCNg4Y21lZiWWPSEqj0R3UnLLpENGJVXkqpmbIyRU5CuMImKPIEu5CYgmFKL7Npfe1A==
+solid-js@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-1.7.3.tgz#3e2e2ce7f2415336f5c96668f9524ad51f6a718b"
+  integrity sha512-4hwaF/zV/xbNeBBIYDyu3dcReOZBECbO//mrra6GqOrKy4Soyo+fnKjpZSa0nODm6j1aL0iQRh/7ofYowH+jzw==
   dependencies:
     csstype "^3.1.0"
+    seroval "^0.5.0"
 
 solid-refresh@^0.5.0:
   version "0.5.2"
@@ -6329,15 +6335,15 @@ vite-node@0.29.7:
     picocolors "^1.0.0"
     vite "^3.0.0 || ^4.0.0"
 
-vite-plugin-solid@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-solid/-/vite-plugin-solid-2.6.1.tgz#9e2dd5e1a4b7a19956bb05d0201a53907f98282b"
-  integrity sha512-/khM/ha3B5/pTWQWVJd/0n6ODPIrOcajwhbrD8Gnv37XmJJssu+KA8ssN73raMIicf2eiQKiTAV39w7dSl4Irg==
+vite-plugin-solid@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-solid/-/vite-plugin-solid-2.7.0.tgz#44de91335f30dfddd7f5f59a7019020860fcba2e"
+  integrity sha512-avp/Jl5zOp/Itfo67xtDB2O61U7idviaIp4mLsjhCa13PjKNasz+IID0jYTyqUp9SFx6/PmBr6v4KgDppqompg==
   dependencies:
     "@babel/core" "^7.20.5"
     "@babel/preset-typescript" "^7.18.6"
     "@types/babel__core" "^7.1.20"
-    babel-preset-solid "^1.6.3"
+    babel-preset-solid "^1.7.2"
     merge-anything "^5.1.4"
     solid-refresh "^0.5.0"
     vitefu "^0.2.3"
