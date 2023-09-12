@@ -33,18 +33,18 @@
     "release": "pnpm test && pnpm build && release-it"
   },
   "devDependencies": {
-    "@regions-of-indonesia/client": "5.0.2",
-    "@regions-of-indonesia/types": "5.0.1",
-    "@regions-of-indonesia/utils": "^5.0.1",
+    "@regions-of-indonesia/client": "5.2.0",
+    "@regions-of-indonesia/types": "5.1.0",
+    "@regions-of-indonesia/utils": "^5.1.0",
     "@solidjs/testing-library": "^0.8.4",
     "@tanstack/solid-query": "5.0.0-beta.15",
-    "@vitest/ui": "^0.31.1",
+    "@vitest/ui": "^0.34.4",
     "jsdom": "^22.1.0",
-    "release-it": "^15.10.3",
-    "solid-js": "^1.7.9",
-    "vite": "^4.3.9",
-    "vite-plugin-dts": "^2.3.0",
+    "release-it": "^16.1.5",
+    "solid-js": "^1.7.11",
+    "vite": "^4.4.9",
+    "vite-plugin-dts": "^3.5.3",
     "vite-plugin-solid": "^2.7.0",
-    "vitest": "^0.31.1"
+    "vitest": "^0.34.4"
   }
 }
