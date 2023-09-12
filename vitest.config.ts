@@ -7,8 +7,10 @@ export default defineConfig({
   test: {
     environment: "jsdom",
     include: ["test/**/*.test.tsx"],
-    deps: {
-      inline: [/solid-js/, /@solidjs\/router/],
+    server: {
+      deps: {
+        inline: [/solid-js/, /@solidjs\/router/],
+      },
     },
   },
 });
