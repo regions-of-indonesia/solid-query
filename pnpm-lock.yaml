@@ -14,8 +14,8 @@ devDependencies:
     specifier: ^0.8.4
     version: 0.8.4(@solidjs/router@0.8.3)(solid-js@1.7.11)
   '@tanstack/solid-query':
-    specifier: 5.0.0-beta.15
-    version: 5.0.0-beta.15(solid-js@1.7.11)
+    specifier: 5.0.0-beta.23
+    version: 5.0.0-beta.23(solid-js@1.7.11)
   '@vitest/ui':
     specifier: ^0.34.4
     version: 0.34.4(vitest@0.34.4)
@@ -1000,16 +1000,16 @@ packages:
       defer-to-connect: 2.0.1
     dev: true
 
-  /@tanstack/query-core@5.0.0-beta.15:
-    resolution: {integrity: sha512-NaL5qp1K5IhnDD5wEegYpXB0OMPsb+QZNcGR5hWQaDS+30Ga8+zKpfjDn7wHlCKPO2mHCTRqUbQnLWIlt5FKoQ==}
+  /@tanstack/query-core@5.0.0-beta.23:
+    resolution: {integrity: sha512-Qp+U4EltOl7y8VZIhxy4eZR5xFnXll28Urp28e6ag10D69yYKRApS2O+ufcVCxOcm1GFv4rpp19gYrpoqHeWgA==}
     dev: true
 
-  /@tanstack/solid-query@5.0.0-beta.15(solid-js@1.7.11):
-    resolution: {integrity: sha512-kH5g33F1GDQHDl5YKwcBA8YykdrY9SsYSl/jH/26GCs/BPfKSPUMjChUkbX+H2HmdLGFrlk/HTgmK7j+pvg0mQ==}
+  /@tanstack/solid-query@5.0.0-beta.23(solid-js@1.7.11):
+    resolution: {integrity: sha512-oSwU+0LWQmpd4/1SQTxstTv9WDTMlWs8szoePi00OQaGM5LTC9faHoXk59NjbVs0hiuMT24J2Uy8VtA8+brMew==}
     peerDependencies:
       solid-js: ^1.6.0
     dependencies:
-      '@tanstack/query-core': 5.0.0-beta.15
+      '@tanstack/query-core': 5.0.0-beta.23
       solid-js: 1.7.11
     dev: true
 
