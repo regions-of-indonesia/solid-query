@@ -5,8 +5,8 @@
 <p align="center">
   <a title="license" href="https://github.com/regions-of-indonesia/solid-query/blob/main/LICENSE">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://none.deno.dev/npm/l?t=dark&n=@regions-of-indonesia/solid-query">
-      <img alt="license" src="https://none.deno.dev/npm/l?t=light&n=@regions-of-indonesia/solid-query" hspace="1">
+      <source media="(prefers-color-scheme: dark)" srcset="https://none.deno.dev/npm/l/@regions-of-indonesia/solid-query?t=dark">
+      <img alt="license" src="https://none.deno.dev/npm/l/@regions-of-indonesia/solid-query?t=light" hspace="1">
     </picture>
   </a>
   <a title="version" href="https://www.npmjs.com/package/@regions-of-indonesia/solid-query/v/next">
