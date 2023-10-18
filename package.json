@@ -38,7 +38,7 @@
   },
   "peerDependencies": {
     "@regions-of-indonesia/client": "5.2.0",
-    "@tanstack/solid-query": "5.0.0-beta.23"
+    "@tanstack/solid-query": "5.0.0"
   },
   "devDependencies": {
     "@regions-of-indonesia/client": "5.2.2",
