@@ -41,18 +41,18 @@
     "@tanstack/solid-query": "5.0.0-beta.23"
   },
   "devDependencies": {
-    "@regions-of-indonesia/client": "5.2.1",
-    "@regions-of-indonesia/types": "5.1.1",
-    "@regions-of-indonesia/utils": "^5.1.1",
+    "@regions-of-indonesia/client": "5.2.2",
+    "@regions-of-indonesia/types": "5.1.2",
+    "@regions-of-indonesia/utils": "^5.1.2",
     "@solidjs/testing-library": "^0.8.4",
-    "@tanstack/solid-query": "5.0.0-beta.23",
-    "@vitest/ui": "^0.34.4",
+    "@tanstack/solid-query": "5.0.0",
+    "@vitest/ui": "^0.34.6",
     "jsdom": "^22.1.0",
-    "release-it": "^16.1.5",
-    "solid-js": "^1.7.11",
-    "vite": "^4.4.9",
-    "vite-plugin-dts": "^3.5.3",
-    "vite-plugin-solid": "^2.7.0",
-    "vitest": "^0.34.4"
+    "release-it": "^16.2.1",
+    "solid-js": "^1.8.1",
+    "vite": "^4.4.11",
+    "vite-plugin-dts": "^3.6.0",
+    "vite-plugin-solid": "^2.7.2",
+    "vitest": "^0.34.6"
   }
 }
